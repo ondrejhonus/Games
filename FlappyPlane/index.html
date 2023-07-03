@@ -6,7 +6,6 @@
     <title>Unity WebGL Player | Flappy Plane</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -60,9 +59,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/FlappyPlaneWeb.loader.js";
       var config = {
-        dataUrl: buildUrl + "/FlappyPlaneWeb.data.br",
-        frameworkUrl: buildUrl + "/FlappyPlaneWeb.framework.js.br",
-        codeUrl: buildUrl + "/FlappyPlaneWeb.wasm.br",
+        dataUrl: buildUrl + "/FlappyPlaneWeb.data.unityweb",
+        frameworkUrl: buildUrl + "/FlappyPlaneWeb.framework.js.unityweb",
+        codeUrl: buildUrl + "/FlappyPlaneWeb.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Ondřej Honus",
         productName: "Flappy Plane",
@@ -119,8 +118,8 @@
       document.body.appendChild(script);
 
     </script>
-    <div class="iframe">
-    <iframe frameborder="0" src="https://itch.io/embed/2146359?border_width=4&amp;bg_color=588eff&amp;fg_color=ffffff&amp;border_color=1d71b1" width="558" height="173"><a href="https://qwerticek.itch.io/flappy-plane">Flappy Plane by qwerticek</a></iframe>
-  </div>
+        <div class="iframe">
+          <iframe frameborder="0" src="https://itch.io/embed/2146359?border_width=4&amp;bg_color=588eff&amp;fg_color=ffffff&amp;border_color=1d71b1" width="558" height="173"><a href="https://qwerticek.itch.io/flappy-plane">Flappy Plane by qwerticek</a></iframe>
+        </div>
   </body>
 </html>
